@@ -1,29 +1,47 @@
-body {background: #ED2B2A;  /* fallback for old browsers */
-    background-image: linear-gradient(#78C1F3, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
-    background-image: linear-gradient(#78C1F3, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
-
+body {background: blue;  /* fallback for old browsers */
+    background-image: linear-gradient(#bddcf0, #87cffc);  /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(#bddcf0, #87cffc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
 
 .first {
 text-align: center;
-padding: 20px;
+padding: 150px 350px 250px 250px;
 
 }
 
 .second {
-    text-align: left;
-    padding: 100px;
-   
+    padding: 200px 500px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
 }
+
+.second a:link, .second a:visited {
+    background-color: white;
+    color: black;
+    border: 1px solid lightblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.second a:hover, .second a:active {
+    background-color: lightskyblue;
+    color: white;
+}
+
+
 
 .third {
     text-align: center;
-    padding: 100px;
+    padding: 150px;
    
 }
 
 .fourth {
     text-align: center;
-    padding: 20px;
+    padding: 150px;
   
 }
 
@@ -37,7 +55,10 @@ padding: 20px;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 562.5%;
+    margin: 50px auto 0px auto;
+    font-family: fantasy;
+    line-height: 2;
 }
 
 h2 {
@@ -50,4 +71,18 @@ h3 {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.image1 {
+    float: right;
+}
+
+.floatleft {
+    float: left;
+}
+
+
+.padding
+{
+    padding: 250px;
 }
