@@ -7,13 +7,12 @@ body
 .first {
     text-align: center;
     padding: 150px;
-  
 }
 
 
 .second {
     text-align: center;
-    padding: 150px;
+    padding: 5px;
 
 }
 
@@ -105,10 +104,15 @@ div.figure {
   }
 
   .stangkoppen {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 50px;
+    padding-bottom: 50px;
   }
 
   .fotostangkop {
  text-align: center;
   }
+
+.productinformatie {
+    padding: 250px;
+}
