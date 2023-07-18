@@ -1,20 +1,20 @@
-body {background: blue;  /* fallback for old browsers */
+body 
+{   background: blue;  /* fallback for old browsers */
     background-image: linear-gradient(#bddcf0, #87cffc);  /* Chrome 10-25, Safari 5.1-6 */
     background-image: linear-gradient(#bddcf0, #87cffc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 
 .first {
-text-align: center;
-padding: 150px 350px 250px 250px;
-
+    text-align: center;
+    padding: 150px;
+  
 }
 
+
 .second {
-    padding: 200px 500px;
     text-align: center;
-    color: black;
-    text-decoration: none;
-    display: inline-block;
+    padding: 150px;
+
 }
 
 .second a:link, .second a:visited {
@@ -31,18 +31,14 @@ padding: 150px 350px 250px 250px;
     color: white;
 }
 
-
-
 .third {
     text-align: center;
     padding: 150px;
-   
 }
 
 .fourth {
     text-align: center;
     padding: 150px;
-  
 }
 
 .center {
@@ -57,20 +53,21 @@ padding: 150px 350px 250px 250px;
 h1 {
     font-size: 562.5%;
     margin: 50px auto 0px auto;
-    font-family: fantasy;
+    font-style: serif;
     line-height: 2;
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif; 
+   font-style: serif;
 }
 
 h3 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-style: serif;
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-style: serif;
+ 
 }
 
 .image1 {
@@ -86,3 +83,32 @@ p {
 {
     padding: 250px;
 }
+
+.contact {
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 250px;
+}
+
+div.figure {
+    float: center;
+    width: 30%;
+    padding-top: 500px;
+    padding-bottom: 500px;
+  }
+
+  div.figure p {
+    text-align: center;
+    font-size: smaller;
+    text-indent: 0;
+  }
+
+  .stangkoppen {
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+
+  .fotostangkop {
+ text-align: center;
+  }
